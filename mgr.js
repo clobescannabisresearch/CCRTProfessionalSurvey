@@ -169,31 +169,28 @@ API.addSequence([
     
     
     {inherit: 'intro'},
+    {inherit: 'demographics'},
     {
-        mixer:'wrapper',
-        data:[
-            {inherit: 'demographics'},
-            {mixer:'random',
-                data:[
-                    {mixer: 'wrapper',
+        mixer:'random',
+            data:[
+                {mixer: 'wrapper',
+                    data: [
+                        {inherit: 'vignettes_instructions'},
+                        {inherit: 'vignettes'},
+                    ]
+                },
+
+                {
+                    mixer: 'wrapper',
                         data: [
-                            {inherit: 'vignettes_instructions'},
-                            {inherit: 'vignettes'},
+                            {inherit: 'raceiat_instructions'},
+                            {inherit: 'raceiat'}
                         ]
-                    },
-            // force the instructions to preceed the iat
-                    {
-                        mixer: 'wrapper',
-                            data: [
-                                {inherit: 'raceiat_instructions'},
-                                {inherit: 'raceiat'}
-                            ]
-                    },
-                 ]},
-        ],
-    },
+                },
+            ]
+    },    
     
-{inherit: 'uploading'},
+    {inherit: 'uploading'},
     {inherit: 'lastpage'},
     {inherit: 'redirect'}
 ]);
