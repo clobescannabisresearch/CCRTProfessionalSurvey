@@ -74,7 +74,7 @@ define(['questAPI','underscore'], function(Quest,_){
         required:true
     });
 
-    API.addQuestionSet('Grid',{
+    API.addQuestionsSet('Grid',{
         inherit:'basicQ',
         type:'Grid',
         autoSubmit:false,
