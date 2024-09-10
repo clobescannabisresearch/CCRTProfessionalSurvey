@@ -232,7 +232,7 @@ define(['questAPI','underscore'], function(Quest,_){
         columns: [
             'Years',
             'Months',
-            {type:'text', answers: ['Male', 'Female']}
+            {type:'dropdown', answers: [1,2,3,4,5,6,7,8,9,10]}
         ],
         rows: ['-']
     });
