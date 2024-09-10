@@ -232,7 +232,7 @@ define(['questAPI','underscore'], function(Quest,_){
         columns: [
             'Years',
             'Months',
-            {type:text}
+            {type: 'text', textProperty:'rightStem'}
         ]
     });
 
