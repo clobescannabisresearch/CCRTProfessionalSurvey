@@ -233,7 +233,8 @@ define(['questAPI','underscore'], function(Quest,_){
             'Years',
             'Months',
             {type:'text', answers: ['Male', 'Female']}
-        ]
+        ],
+        rows: ['-']
     });
 
     API.addQuestionsSet('cannPersonal',{
