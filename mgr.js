@@ -106,12 +106,6 @@ API.addTasksSet({
         scriptUrl: 'raceiat.js'
     }],
 
-    studentID: [{
-        type: 'quest',
-        name: 'studentID',
-        scriptUrl: 'studentID.js',
-    }],
-
     lastpage: [{
         type: 'message',
         name: 'lastpage',
@@ -178,7 +172,6 @@ API.addSequence([
     {
         mixer:'wrapper',
         data:[
-            {inherit: 'studentID'},
             {inherit: 'demographics'},
             {mixer:'random',
                 data:[
