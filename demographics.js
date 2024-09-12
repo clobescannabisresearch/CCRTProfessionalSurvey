@@ -324,14 +324,6 @@ define(['questAPI','underscore'], function(Quest,_){
         },
 
         {
-            inherit: 'basicPage',
-            questions:[
-                {inherit: 'major'},
-                {inherit:'majorOther'}
-            ]
-        },
-
-        {
             inherit:'basicPage',
             questions:[
                 {inherit:'occupation'},
