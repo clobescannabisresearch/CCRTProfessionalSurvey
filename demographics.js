@@ -225,7 +225,7 @@ define(['questAPI','underscore'], function(Quest,_){
     });
 
     API.addQuestionsSet('occupationExp', {
-        inherit: 'singelChoicedrop',
+        inherit: 'singleChoicedrop',
         name:'occupationExp',
         stem:'How long have you worked in your occupation?',
         answers:[
