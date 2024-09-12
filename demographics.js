@@ -241,7 +241,6 @@ define(['questAPI','underscore'], function(Quest,_){
             {text:'9 months', value:109},
             {text:'10 months', value:110},
             {text:'11 months', value:111},
-            {text:'12 months', value:112},
             {text:'1 year', value:1},
             {text:'2 years', value:2},
             {text:'3 years', value:3},
